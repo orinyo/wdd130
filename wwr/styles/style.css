@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins&display=swap');
+/* CSS */
+#content {
+    max-width:1600px;
+    margin:0 auto;
+}
+nav a{
+    text-align:center;
+    color:#FFF;
+
+}
+#hero-msg h1,#hero-msg h4,.button-box,main section,#hero {
+    text-align: center;
+}
+#background {
+    height: 725px;
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(20,30,13, .7);
+}
+nav a:hover {
+    background-color: #C9ADA7;
+    color:#FFF;
+}
+.book,.join {
+    background-color: aqua;
+    color:#FFF;
+}
+.book:hover, .join:hover {
+    background-color: #C9ADA7;
+    color:#FFF;
+}
+#background{
+    background-color: aqua;
+}
+.msg{
+    background-color: aqua;
+}
+footer {
+    background-color: cadetblue;
+}
+.home-title{
+    color:#FFF;
+}
+h4 {
+    color:#FFF;
+}
+.msg h2 {
+    color:#FFF;
+}
+.msg p {
+    color:#FFF;
+
+}
+.msg p {
+    color:#FFF;
+
+}
+footer a {
+    color:#FFF;
+
+}
+footer a:hover {
+    color:#FFF;
+}
+.icon {
+    width: 80px;
+}
