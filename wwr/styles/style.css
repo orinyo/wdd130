@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Poppins&display=swap');
 /* CSS */
 #content {
     max-width:1600px;
@@ -7,7 +7,7 @@
 
 nav a{
     text-align:center;
-    color:#000;
+    color:#150051;
     text-decoration:none;
     padding: 35px;
 
@@ -18,13 +18,13 @@ nav {
 }
 #background {
     height:725px;
-    background-color: #4A4E69 ;
+    background-color: #1cb5e1 ;
     grid-column: 1/11;
     grid-row: 4/9;
 }
 
 .book,.join {
-    background-color:#C9ADA7;
+    background-color:#ffae2e;
     color:#000;
     text-decoration:none;
     text-align: center;
@@ -34,7 +34,7 @@ nav {
 }
 
 footer {
-    background-color:#C9ADA7;
+    background-color:#ffae2e;
     color:#000;
     padding: 25px 50px;
     margin-top: 200px;
@@ -81,11 +81,11 @@ footer a:hover {
     z-index: -1;
 }
 nav a:hover,.book:hover,.join:hover {
-    background-color:#C9ADA7;
+    background-color:#ffae2e;
     color:#FFF;
 }
 h4,.msg h2 {
-    color:#000;
+    color:#f8f7f7;
 }
 
 #hero-msg h4 {
@@ -98,14 +98,14 @@ h4,.msg h2 {
 }
 
 header {
-    background-color:#C9ADA7;
+    background-color:#1cb5e1;
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 body {
     background-color: #FFF;
-    font-family: Poppins, Helvetica, sans-serif;
+    font-family: Oswald, Helvetica, sans-serif;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -115,18 +115,18 @@ body {
 width:80px;
 }
 .home-title {
-    color:#C9ADA7;
-    font-family: Kalam;
+    color:#ffae2e;
+    font-family: Oswald;
     font-size: 2em;
     margin-top: 10px;
 }
 .msg p {
-    color:#000;
+    color:#ffae2e;
     font-size: .8em;
     padding-bottom: 15px;
 }
 .msg {
-    background-color:#C9ADA7;
+    background-color:#150051;
     line-height: 1.5em;
     padding: 35px;
     grid-column: 6/10;
@@ -152,9 +152,9 @@ footer .social img {
     margin: 200px 0;
 }
 .card-img {
-    border: 10px solid #4A4E69;
+    border: 10px solid #1c5495;
     transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
+    box-shadow: 5px 5px 10px #ffae2e;
 }
 .card-img:hover {
     opacity: .6;
