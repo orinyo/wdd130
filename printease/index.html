@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images\Printease Logo.png" alt="PrinteEase Printers logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="faq.html">FAQ</a>
+                <a href="aboutus.html">About Us</a>
+            </nav>
+        </header>
+        <div class="title-home">
+            <h2>Welcome to the PrintEase Printers - Your Ultimate Printing Resource</h2>
+            <p>Are you searching for expert guidance on creating top-notch marketing materials that leave a lasting impression? Look no further. PrintEase Printers is where creativity meets precision in printing! Our website serves as a go-to resource for all things printing, catering to small business owners, professionals, and students alike. Whether you're crafting business cards, brochures, flyers, or posters, our mission is to empower you with valuable insights and resources.</p>
+            <p>Dive into a treasure trove of informative articles, guides, and tips that will elevate your printing projects. From design inspiration to choosing the right materials, our comprehensive content is tailored to meet your specific needs.</p>
+            <p>Discover a seamless experience as you explore our diverse printing services. Whether you're aiming for a professional business card, eye-catching brochures, or impactful posters, find everything you need conveniently consolidated in one place.</p>
+            <p>Join us on a journey where quality meets convenience. Your printing projects deserve the best, and this platform is here to guide you every step of the way. Welcome to a world of creativity, precision, and endless possibilities!</p>
+            <h3>Printease Printers Guide: Your Go-To Resource for Perfect Prints!</h3>
+            <p>Welcome to Printease Printers, where your printing dreams come to life! Whether you're a seasoned designer or a first-time creator, our straightforward guide ensures your brochures, flyers, business cards, and posters look nothing short of amazing.</p>
+        </div>
+        <div class="slideshow-container">
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 2</div>
+              <img src="images\homepage image 1.jfif" style="width:100%">
+              <div class="text">Fix your PC</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 2</div>
+              <img src="images\homepage image 2.jfif" style="width:100%">
+              <div class="text">Fix your PC</div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+        <div class="home-grid">
+            <section class="tip">
+                <h3>Brochures: </h3>   
+                <p>Communicate, Captivate, Convert</p>
+                <ul>
+                    <li>Design Tips: Keep it concise: Short, impactful text. Engaging visuals: High-resolution images grab attention. Brand consistency: Use colors and fonts aligned with your brand.</li>
+                    <li>Print Specifications: Choose high-quality paper for a professional finish. Opt for a glossy finish for vibrant visuals. Consider a tri-fold layout for easy readability.</li>
+                    
+                </ul>
+            </section>
+
+            <section class="tip">
+                <h3>Flyers:</h3>   
+                <p>Fly High with Effective Designs</p>
+                <ul>
+                    <li>Design Tips: Bold headlines: Grab attention instantly. Simple layout: Avoid clutter, focus on key details. Call-to-action: Encourage a response.</li>
+                    <li>Print Specifications: Select durable paper for longevity. Matte finish for easy readability. Standard sizes work well for distribution.</li>
+                    
+                </ul>
+            </section>
+
+            <section class="tip">
+                <h3>Business Cards:</h3>   
+                <p>Make Your Mark in a Pocket-sized Format</p>
+                <ul>
+                    <li>Design Tips: Minimalist design: Focus on essentials. Legible fonts: Ensure contact details are clear. Add your logo for brand recall.</li>
+                    <li>Print Specifications: Opt for sturdy cardstock. Matte or glossy finish, depending on preference. Standard business card dimensions are industry-friendly.</li>
+                    
+                </ul>
+            </section>
+
+            <section class="tip">
+                <h3>Posters:</h3>   
+                <p>Bold, Beautiful, and Impactful</p>
+                <ul>
+                    <li>Design Tips: High-resolution images: Ensure clarity. Contrasting colors: Enhance visibility. Limit text for quick comprehension.</li>
+                    <li>Print Specifications: Larger format prints require a thicker paper. Glossy finish for vibrant colors. Consider customization for a unique touch.</li>
+                   
+                </ul>
+            </section>
+
+            <section class="tip">
+                <h3>Printing with Printease:</h3>   
+                <p>Your Hassle-Free Experience</p>
+                <ul>
+                    <li>Send Your Design: Visit our website, get our contact and send your ready-to-print design.</li>
+                    <li>Choose Specifications: Select your preferred paper, finish, and quantity.</li>
+                    <li>Review and Confirm: Preview your design, make any last-minute adjustments, and confirm your order.</li>
+                    <li>Secure Payment: Enjoy secure online payment options for a hassle-free transaction.</li>
+                    <li>Delivered to Your Door: Sit back and relax. Your prints will be delivered straight to your doorstep.</li>
+                </ul>
+            </section>
+
+            
+        </div>
+        <footer>
+            <p>PrintEase Printers &copy; 2023 - Stephen Orinyo</p>
+            <p><a href="site-plan.html">Site Plan</a></p>
+            <p><a href="aboutus.html">About Us</a></p>
+            <p><a href="faq.html">FAQ</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div> 
+</body>
+</html>
