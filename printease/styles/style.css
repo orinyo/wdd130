@@ -231,3 +231,65 @@ footer .social img {
   font-size: 14px;
   padding: 10px;
 }
+
+/* ABOUT US PAGE */
+footer a {
+  color:#000;
+  text-decoration:none;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color:#FFF;
+}
+footer .social img {
+  padding-top: 15px;
+}
+
+.title-aboutus {
+text-align: center;
+font-family: Kalam;
+}
+.aboutus-picture {
+width: 25%;
+border: 10px solid #fb8500;
+}
+.aboutus-grid {
+display: grid;
+grid-template-columns: repeat(1, 1fr);
+text-align: center;
+box-sizing: border-box; 
+align-items: center;
+justify-items: center; 
+}
+.title-aboutus {
+text-align: center;
+}
+.title-aboutus h2 {
+margin-top: 70px;
+}
+.information{
+background: #219ebc;
+margin: 30px;
+vertical-align: middle;
+width: 70%;
+}
+.aboutus-grid .information h3  {
+font-size: 16px;
+padding: 10px;
+}
+.aboutus-grid .information p {
+font-size: 14px;
+padding: 10px;
+}
+.aboutus-grid .information li {
+font-size: 14px;
+padding: 10px;
+}
